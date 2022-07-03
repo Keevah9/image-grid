@@ -1,6 +1,6 @@
 
-const leftArrow = document.querySelector('.leftArrow')
-const rightArrow = document.querySelector('.rightArrow')
+const prev = document.querySelector('.leftArrow')
+const next = document.querySelector('.rightArrow')
 const mainImg = document.querySelectorAll('img')
 const modalImg = document.querySelector('.modalImg')
 const modal = document.querySelector('.images')
@@ -10,7 +10,7 @@ mainImg.forEach(items => {
         const selected = e.target
         if(selected.id === 'myImg' ){
             modal.style.display = 'block'
-            modalImg.src = selected.dataset.biggerSrc || selected.src
+            modalImg.src = selected.src
         }
         console.log(selected.id)
     })
@@ -19,3 +19,4 @@ mainImg.forEach(items => {
         modal.style.display = 'none'
     })
 })
+
