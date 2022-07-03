@@ -43,6 +43,59 @@ h1{
     font-size: 3rem;
     padding: 2rem;
 }
+.images{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: burlywood;
+}
+.modalImg{
+    margin: 0 auto;
+    margin-top: 12rem;
+    display: block;
+    width: 75%;
+    max-width: 700px;
+    max-height: 70vh;
+    border-radius: 10px;
+}
+.caption{
+    margin: auto;
+    padding-top: 2rem ;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    height: 150px;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    color: white;
+}
+.closeBtn{
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+}
+.leftArrow, .rightArrow{
+    position: absolute;
+    top: 50%;
+    height: 25px;
+    width: 25px;
+}
+.rightArrow{
+    right: 35px;
+}
+.leftArrow{
+    left: 35px;
+}
 
 
 @media all and (min-width:665px) and (max-width:872px){
