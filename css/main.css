@@ -100,6 +100,7 @@ h1{
     position: relative;
 }
 
+
 @media all and (min-width:665px) and (max-width:872px){
     .hide{
         display: none;
